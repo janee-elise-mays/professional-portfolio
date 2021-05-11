@@ -172,9 +172,33 @@ p3{
     font-size:20px;
     color: white;
 }
-
 @media screen and (max-width: 600px) {
-.header {
-        font-size: 3rem;
+    .jumbotron {
+            font-size: 2rem;
+            text-align: center;
+            height: 350px;
+        }
+    }
+@media screen and (max-width: 600px) {
+.jumbotron h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 600px) {
+.title {
+            font-size: 2rem;
+            text-align: center;
+            padding-top: 200px;
+        }
+}
+@media screen and (max-width: 600px) {
+    .row {
+      flex-direction: column;
+    }
+}
+@media screen and (max-width: 600px) {
+    h3 {
+      font-size: 20px;
     }
 }
