@@ -154,7 +154,7 @@ a{
     margin-bottom: 100px;
 }
 .contact img{
-    float: right;
+    /* float: right; */
     background-color: black;
     border-radius: 10px;
 }
@@ -162,14 +162,14 @@ a{
     color:white;
     border:none;
 }
-.fa{
+/* .fa{
     height:10px;
     position:relative;
     top:10px;
     margin-right: 10px;
-}
+} */
 p3{
-    font-size:20px;
+    /* font-size:20px; */
     color: white;
 }
 @media screen and (max-width: 600px) {
@@ -193,7 +193,13 @@ p3{
         }
 }
 @media screen and (max-width: 600px) {
-    .row {
+    .project-1, .project-2, .project-3, {
+                flex: 100%;
+                max-width: 100%;
+            }
+    }
+@media screen and (max-width: 600px) {
+    .row, .links, .row-nav {
       flex-direction: column;
     }
 }
