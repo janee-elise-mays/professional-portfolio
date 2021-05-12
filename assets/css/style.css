@@ -23,6 +23,13 @@ body{
     background-size: cover;
     background-position-y: center;
 }
+.nav{
+    background-color: black;
+    justify-content: space-around;
+}
+.container-fluid{
+    flex-direction: column;
+}
 .title{
     font-size: 2rem;
     color:white;
@@ -63,7 +70,11 @@ p1{
     padding-bottom: 5px;
     font-size: 25px;
 }
-li a {color: white;text-decoration: none;}
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
 
 .links ul li {
     display: inline-block;
@@ -199,8 +210,9 @@ p3{
             }
     }
 @media screen and (max-width: 600px) {
-    .row, .links, .row-nav {
+    .row, .links, .nav {
       flex-direction: column;
+      text-align: center;
     }
 }
 @media screen and (max-width: 600px) {
