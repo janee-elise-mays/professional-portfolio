@@ -204,13 +204,7 @@ p3{
         }
 }
 @media screen and (max-width: 600px) {
-    .project-1, .project-2, .project-3, {
-                flex: 100%;
-                max-width: 100%;
-            }
-    }
-@media screen and (max-width: 600px) {
-    .row, .links, .nav {
+    .row, .nav, .d-flex {
       flex-direction: column;
       text-align: center;
     }
@@ -222,7 +216,7 @@ p3{
 }
 @media screen and (max-width: 600px) {
     .image-2 {
-      height: 360px;
+      width: 100%;
     }
 }
 @media screen and (max-width: 600px) {
@@ -238,6 +232,13 @@ p3{
 }
 @media screen and (min-width: 970px) {
     .contact img {
+      float:right;
+      padding-top: 25px;
+      padding-right: 30px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .project-1 {
       float:right;
       padding-top: 25px;
       padding-right: 30px;
