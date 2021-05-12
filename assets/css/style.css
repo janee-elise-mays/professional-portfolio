@@ -220,3 +220,19 @@ p3{
       font-size: 20px;
     }
 }
+@media screen and (max-width: 600px) {
+    .image-2 {
+      height: 360px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .contact {
+      text-align: left;
+    }
+}
+@media screen and (max-width: 600px) {
+    .media {
+      text-align: center;
+      padding-bottom: 15px;
+    }
+}
